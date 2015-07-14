@@ -1,0 +1,25 @@
+{
+  "name": "line-count-status",
+  "main": "./lib/line-count-status",
+  "version": "0.0.0",
+  "description": "Line counter in the status bar",
+  "keywords": [
+    "status-bar",
+    "line-count"
+  ],
+  "repository": "https://github.com/olmokramer/atom-line-count-status",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBarService"
+      }
+    }
+  },
+  "dependencies": {
+    "object-assign-shim": "^1.0.0"
+  }
+}
