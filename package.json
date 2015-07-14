@@ -1,7 +1,7 @@
 {
   "name": "line-count-status",
   "main": "./lib/line-count-status",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Line counter in the status bar",
   "keywords": [
     "status-bar",
